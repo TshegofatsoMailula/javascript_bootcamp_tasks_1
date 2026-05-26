@@ -1,19 +1,21 @@
 //Exercise 1
-
+//1
 let integer = 1;
 let float = 1.2;
+//2
 let addition = integer + float;
 let subtraction = float - integer;
 let multiplication = integer * float;
 let division = float / integer;
 let modulus = float % integer;
-//Remember to add exponentials
+let exponentiation = integer ** float;
+//3
 console.log(`Addition equals ${addition}`);
 console.log(`Subtraction equals ${subtraction}`);
 console.log(`Multiplication equals ${multiplication}`);
 console.log(`Division equals ${division}`);
-console.log(`Modulus equals ${modulus}\n`);
-
+console.log(`Modulus equals ${modulus}`);
+console.log(`Exponentiation equals ${exponentiation}\n`);
 //Exercise 2
 
 //1
