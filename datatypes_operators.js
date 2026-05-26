@@ -35,12 +35,14 @@ console.log(`is X not equal to Y: ${isNotEqual}`);
 //3
 let a = true;
 let b = false;
+console.log("\n");
 console.log(a&&b);
 console.log(a||b);
 console.log(!a);
 
 //4
 let p=10;
+console.log("\n");
 console.log(p+=2);
 console.log(p-=3);
 console.log(p*=4);
