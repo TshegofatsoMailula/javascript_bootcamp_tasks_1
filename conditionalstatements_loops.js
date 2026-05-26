@@ -33,5 +33,39 @@ else
     console.log("Not divisible by 2 or 3");
 }
 //Exercise 3: For loops
+//1
+console.log("\n");
+
+for(i=1;i<=10;i++)
+{
+    console.log(i);
+}
+//2
+console.log("\n");
+for(even=1;even<=20;even++)
+{
+    if(even%2==0)
+    {
+        console.log(even);
+    }
+}
+//4
+console.log("\n");
+const numbers = [1,2,3,4,5];
+for(i=0;i<numbers.length;i++)
+{
+    console.log(numbers[i]);
+}
+//5
+let largest_number = 0;
+const numbers_set = [3,7,2,5,10,6];
+for(i=0;i<numbers_set.length;i++)
+{
+    if(numbers_set[i]>largest_number)
+    {
+        largest_number = numbers_set[i];
+    }
+}
+console.log(`\nThe largest number is ${largest_number}`);
 //Exercise 4: While loops
 //Exercise 5: Do while loops
