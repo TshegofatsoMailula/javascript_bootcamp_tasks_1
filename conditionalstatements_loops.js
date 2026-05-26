@@ -49,6 +49,14 @@ for(even=1;even<=20;even++)
         console.log(even);
     }
 }
+//3
+console.log("\n");
+let number_3_total = 0;
+for(t=1;t<=100;t++)
+{
+    number_3_total = number_3_total + t;
+}
+console.log(`number 3 total is ${number_3_total}`);
 //4
 console.log("\n");
 const numbers = [1,2,3,4,5];
@@ -102,3 +110,23 @@ while(while_loop<=50)
     while_loop++;
 }
 //Exercise 5: Do while loops
+//1
+console.log("\n");
+let do_while = 1;
+do
+{
+    console.log(do_while);
+    do_while++;
+}while(do_while<=10);
+
+//2
+console.log("\n");
+let sum = 1;
+let total = 0;
+do
+{
+    total = total + sum;
+    sum++;
+}
+while(sum<=100)
+console.log(`total: ${total}`);
