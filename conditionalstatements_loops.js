@@ -68,4 +68,37 @@ for(i=0;i<numbers_set.length;i++)
 }
 console.log(`\nThe largest number is ${largest_number}`);
 //Exercise 4: While loops
+
+//1
+console.log(`\n`);
+let while_loop = 1;
+while(while_loop<=10)
+{
+    console.log(while_loop);
+    while_loop++;
+}
+
+//2
+console.log('\n');
+while_loop = 1;
+while(while_loop<=20)
+{
+    if(while_loop%2==0)
+    {
+        console.log(while_loop);
+    }
+    while_loop++;
+}
+
+//4
+console.log('\n')
+while_loop = 1;
+while(while_loop<=50)
+{
+    if(while_loop%5==0)
+    {
+        console.log(while_loop);
+    }
+    while_loop++;
+}
 //Exercise 5: Do while loops
